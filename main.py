@@ -1,4 +1,8 @@
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from logic import collect_news, publish_summary
 
 logging.basicConfig(
